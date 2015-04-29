@@ -1,0 +1,30 @@
+Who am I?:
+- Will Stern
+- Full-time developer for over 13 years
+- Full-time with Node.js for over 5 years
+
+What this course will cover:
+- Intro to Node.js
+  - What is Node.js?
+    - Javascript on the machine
+    - A runtime for Google Chrome's V8 Javascript engine
+  - What is Node.js used for?
+    - Build Tools and Utilities
+    - Web Applications / Web Services
+  - What is it good at?
+    - Lightweight Applications all the way up to very large
+    - High Concurrency
+    - Asyncronous Actions/Requests/non-blocking
+    - Realtime Communication
+    - Isomorphic Applications - shared code between server and client
+  - Basics of Node.js Programming
+  - Using Node.js Build Tools and Utilities
+  - Building Web Applications With Node.js
+  - Working with databases:
+    - MySQL
+    - MongoDB
+    - Redis
+  - Authentication and Authorization
+  - Realtime Communication with Node.js
+  - Deploying and Monitoring Node.js Applications
+  - Advanced Node.js Techniques - Making Node Shine
