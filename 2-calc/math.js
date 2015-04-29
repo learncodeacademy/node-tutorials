@@ -1,11 +1,8 @@
 module.exports = {
+  multiply: function(x, y) {
+    return x * y;
+  },
   add: function(x, y) {
-    return x+y;
-  },
-  subtract: function(x, y) {
-    return x-y;
-  },
-  squareRoot: function(x) {
-    return Math.sqrt(x);
+    return x + y;
   }
 };

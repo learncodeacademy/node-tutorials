@@ -1,14 +1,7 @@
-var math = require('./math');
+var math = require("./math");
 
 var command = process.argv[2];
-var arguments = process.argv.slice(3).map(function(arg) {
-  return parseFloat(arg);
-});
+var num1 = parseFloat(process.argv[3]);
+var num2 = parseFloat(process.argv[4]);
 
-if (math[command]) {
-  console.log("running:", command);
-  console.log(math[command].apply(math, arguments));
-} else {
-  console.log("command " + command + " not found!");
-  console.log("allowed commands are: ", Object.keys(math).join(', '));
-}
+console.log(math[command](num1, num2));
