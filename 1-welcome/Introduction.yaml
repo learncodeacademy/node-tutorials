@@ -19,12 +19,34 @@ What this course will cover:
     - Isomorphic Applications - shared code between server and client
   - Basics of Node.js Programming
   - Using Node.js Build Tools and Utilities
+    - Managing Node Version
+    - Gulp Basics
+    - Grunt Basics
+    - Yeoman Basics
+    - Bower Basics
   - Building Web Applications With Node.js
+    - Basic Web Server
+    - Express.js Intro 1
+    - Express.js Intro 2
+    - Jade Templating
+    - Single-page App layout
+    - Sending Email
   - Working with databases:
     - MySQL
     - MongoDB
     - Redis
   - Authentication and Authorization
   - Realtime Communication with Node.js
+    - Build a chat app
   - Deploying and Monitoring Node.js Applications
+    - Provisioning a Server
+    - Automated Deployment
+    - Running Node as an Upstart Service
+    - New Relic
   - Advanced Node.js Techniques - Making Node Shine
+    - Handling Asyncronous JS Well
+    - Async library
+    - Promises
+    - Generators
+    - Koa Framework
+    - Babel
