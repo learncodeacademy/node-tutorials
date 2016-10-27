@@ -1,0 +1,25 @@
+<form action="/signup" method="post">
+  <div>
+    <label>First Name:</label>
+    <input type="text" name="first_name"/>
+  </div>
+  <div>
+    <label>Last Name:</label>
+    <input type="text" name="last_name"/>
+  </div>
+  <div>
+    <label>Email:</label>
+    <input type="text" name="username"/>
+  </div>
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password"/>
+  </div>
+  <div>
+    <label>Password (repeat):</label>
+    <input type="password" name="password2"/>
+  </div>
+  <div>
+    <input type="submit" value="Log In"/>
+  </div>
+</form>

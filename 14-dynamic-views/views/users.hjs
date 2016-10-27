@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>{{title}}</h1>
+    <ul>
+      {{#users}}
+        <li>
+          <a href="/viewtweets/{{id}}">{{username}}</a>
+        </li>
+      {{/users}}
+    </ul>
+  </body>
+</html>

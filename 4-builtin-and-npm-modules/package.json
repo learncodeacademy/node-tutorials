@@ -1,0 +1,18 @@
+{
+  "name": "4-builtin-and-npm-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

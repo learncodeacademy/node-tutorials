@@ -1,0 +1,5 @@
+If you aren't familiar with headers, content-types, response-codes,
+you'll want to watch these 2 videos before this lesson.
+
+https://www.youtube.com/watch?v=e4S8zfLdLgQ
+https://www.youtube.com/watch?v=FTAPjr7vgxE

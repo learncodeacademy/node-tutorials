@@ -1,0 +1,32 @@
+{
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : "app",
+      script    : "app.js",
+      env_production : {
+        NODE_ENV: "production"
+      }
+    }
+  ],
+
+  /**
+   * Deployment section
+   * http://pm2.keymetrics.io/docs/usage/deployment/
+   */
+  deploy : {
+    production : {
+      user : "dep",
+      host : "104.236.108.202",
+      ref  : "origin/master",
+      repo : "git@bitbucket.org:willrstern/example-deployment.git",
+      path : "~/node-app",
+      "post-deploy" : "nvm install && npm install --production && /home/dep/.nvm/versions/node/v6.9.1/bin/pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}
